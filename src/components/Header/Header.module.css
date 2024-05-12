@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background: rgb(196, 196, 196);
+  justify-content: center;
+  gap: 50px;
+  min-height: 212px;
+}
+
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBlock {
+  display: flex;
+  gap: 36px;
+}
+
+.searchBtn,
+.menuBtn {
+  background: transparent;
+  border: none;
+  transition: all ease-in-out 0.28s;
+}
+
+.searchBtn:hover,
+.menuBtn:hover {
+  cursor: pointer;
+}
+
+.searchBtn {
+}
+
+.menuBtn {
+}

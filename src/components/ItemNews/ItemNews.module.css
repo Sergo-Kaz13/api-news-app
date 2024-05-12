@@ -1,0 +1,27 @@
+.generalItem {
+  border: 1px solid silver;
+}
+
+.info {
+  padding: 10px;
+}
+
+.generalItem:nth-child(1) {
+  grid-area: span 2 / span 2;
+}
+
+.generalItem img {
+  width: 100%;
+}
+
+.titleLink {
+  text-decoration: none;
+  color: inherit;
+  transition: all ease-in-out 0.28s;
+  font-size: 18px;
+}
+
+.titleLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
