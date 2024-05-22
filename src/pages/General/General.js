@@ -28,9 +28,13 @@ const General = () => {
   if (generalStatus === "loading") {
     content = <p>Loading...</p>;
   } else if (generalStatus === "succeeded") {
-    content = general.map((item) => (
-      <ItemNews key={item.title} itemValue={item} />
-    ));
+    console.log(["general"], general);
+
+    content = general ? (
+      general.map((item) => <ItemNews key={item.title} itemValue={item} />)
+    ) : (
+      <p>контент відсутній</p>
+    );
   } else if (generalStatus === "failed") {
     content = <p>{error}</p>;
   }

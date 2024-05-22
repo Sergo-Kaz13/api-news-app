@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+#### Створи додаток зі стрічкою новин.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Показуй останні статті, коли користувач відкриває сторінку.
+- Користувач повинен могти встановлювати фільтри перед новим пошуком.
 
-## Available Scripts
+* Серед фільтрів має бути:
 
-In the project directory, you can run:
+1.  пошук за фразою
+2.  вибір категорії
+3.  вибір країни
 
-### `npm start`
+Створи додаток зі стрічкою новин. Показуй список доступних джерел новин після завантаження сторінки. За натискання на джерело, завантажуй статті за вибраним джерелом і відображай їх на сторінці. Щоразу завантажуй 50 статей.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Створи додаток зі стрічкою новин. Користувач повинен могти обрати країну, категорію та кількість статей для завантаження (1-100). Після того, як користувач натисне кнопку пошуку, завантаж статті із зазначеними фільтрами та виведи їх на сторінку.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Створи додаток зі стрічкою новин. Показуй останні статті, коли користувач відкриває сторінку. Користувач повинен могти встановлювати фільтри перед новим пошуком. Серед фільтрів має бути: пошук за фразою, вибір категорії. Щоразу завантажуй лише 50 статей.
 
-### `npm test`
+Створи додаток зі стрічкою новин. Користувач повинен могти обрати категорію, ввести фразу запиту та кількість завантажених статей (1-100). Після того, як користувач натисне кнопку пошуку, завантаж статті із зазначеними фільтрами та виведи їх на сторінку.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Створи додаток зі стрічкою новин. Користувач повинен могти обрати категорію та часовий проміжок (від, до) для статей. Після того, як користувач натисне кнопку пошуку, завантаж статті із зазначеними фільтрами та виведи їх на сторінку. Щоразу завантажуй лише 50 статей.

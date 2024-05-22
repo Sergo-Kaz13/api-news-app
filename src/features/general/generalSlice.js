@@ -1,21 +1,23 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const apiKey = process.env.REACT_APP_API_KEY;
-const apiUrl = process.env.REACT_APP_API_BASE_URL;
-
-const GENERAL_URL = `${apiUrl}country=ua&category=general&${apiKey}`;
-
 const initialState = {
   general: [],
   status: "idle", //'idle' || 'loading' || 'succeeded' || 'failde'
   error: null,
 };
 
+const apiKey = process.env.REACT_APP_API_KEY;
+const apiUrl = process.env.REACT_APP_API_BASE_URL;
+
+const GENERAL_URL = `${apiUrl}country=ua&pageSize=100&category=general&${apiKey}`;
+
 export const fetchGeneralNews = createAsyncThunk(
   "general/fetchGeneralNews",
   async () => {
     const response = await axios.get(GENERAL_URL);
+
+    console.log(response);
 
     return response.data.articles;
   }
